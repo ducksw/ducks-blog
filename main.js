@@ -12,7 +12,6 @@ function init() {
         ret += `
             <li>${key.fecha} <a href="${key.url_post}">${key.title}</a></li>
         `;
-
     }
     all_posts.innerHTML = ret;
 
