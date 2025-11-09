@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+body {
+    background-color: black;
+    font-family: "Source Code Pro";
+    font-size: 16px;
+    color: white;
+    line-height: 1.4;
+    font-size: 14pt;
+    margin: 0;
+    min-height: 100%;
+    overflow-wrap: break-word;
+}
+
+.main {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+}
+
+li {
+    margin: 0.4rem 0;
+}
+
+a {
+    color: brown;
+}
+
+a:hover {
+    /* color: lightcoral; */
+    color: darkred;
+}
+
+#cant_post {
+    font-size: 25px;
+}
+
+pre {
+    font-family: "Source Code Pro";
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+#post_date {
+    display: flex;
+    justify-content: end;
+    color: orange;
+    font-weight: bold;
+}
+
+blockquote {
+    font-style: italic;
+    border: thin solid black;
+    padding: 1rem;
+}
