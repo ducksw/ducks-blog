@@ -5,7 +5,6 @@ const all_posts_category = document.getElementById("all_posts_category");
 
 function init() {
     let ret = "";
-
     cant_post.innerHTML = `(${posts.length})`;
 
     for (const key of posts.slice(0, 5)) {
